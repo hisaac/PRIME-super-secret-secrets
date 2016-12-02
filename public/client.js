@@ -35,8 +35,14 @@ app.controller("SampleCtrl", function($firebaseAuth, $http) {
       console.log('Not logged in or not authorized.');
       self.secretData = [];
     }
-
   });
+
+  self.newUser = "";
+
+  self.addUser = function(){
+    var newUser = self.newUser;
+    console.log('New User: ', newUser);
+  };
 
   // This code runs when the user logs out
   self.logOut = function(){
