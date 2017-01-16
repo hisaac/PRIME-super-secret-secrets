@@ -1,5 +1,6 @@
 # nodeFire with Mongo Authorization
-AngularFire with token authentication on Node backend server. This branch uses the mongoose node module with a mongo database to show an authorization example.
+
+In this project, we utilized Angular and Firebase with token authentication on Node backend server. This branch uses the mongoose node module with a mongo database to show an authorization example.
 
 ## Get Started with nodeFire
 1. Run these commands to add the project locally:
